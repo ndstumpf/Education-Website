@@ -298,6 +298,7 @@ header {
 .faq__icon {
     align-self: center;
     font-size: 1.2rem;
+    margin-right: 20px;
 }
 
 .faq p {
@@ -307,6 +308,10 @@ header {
 
 .faq.open p {
     display: block;
+}
+
+.question__title {
+    display: flex;
 }
 
 /* ============================ TESTIMONIALS ============================ */
@@ -355,7 +360,7 @@ header {
     position: absolute;
     left: 50%;
     top: -1.5rem;
-    transform: rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
 }
 
 /* ============================ FOOTER ============================ */
